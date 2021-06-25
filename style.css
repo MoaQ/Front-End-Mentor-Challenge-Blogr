@@ -29,14 +29,12 @@ body {
 }
 
 .wrapper {
-  width: 100%;
-  max-width: 1440px;
-  max-height: 3400px;
+  width: 1440px;
   margin: 0;
   background-color: var(--whitish-color);
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 18% 30% 15% 27% 10%;
+  grid-template-rows: 600px 1010px 505px 915px 362px;
   grid-template-areas:
     "header"
     "sec1"
@@ -60,7 +58,7 @@ body {
   padding: 59px 161px 0 167px;
   display: grid;
   grid-template-columns: 102px auto auto;
-  grid-template-rows: auto 27% 10% 63%;
+  grid-template-rows: auto 100px 35px 230px;
   grid-template-areas: "logo nav login" "htext htext htext" "p p p" "cta cta cta";
 }
 .site-header .logo {
@@ -130,13 +128,13 @@ ul {
   list-style: none;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 16px;
 }
 a {
   text-decoration: none;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 16px;
 }
 /* Buttons design */
 .site-header .login {
@@ -147,15 +145,16 @@ button {
   background: #ffffff;
   border-radius: 24px;
   border: 0;
-  width: 7.938em;
-  height: 3.000em;
+  width: 137px;
+  height: 48px;
 }
 .cta-btn > a {
   color: #ff525d;
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 18px;
+  filter: blur(0.1px);
 }
 .cta-btn:hover {
   background-color: var(--lightred-hover-color);
@@ -168,8 +167,8 @@ button {
   background: #ffffff00;
   border-radius: 24px;
   border: 0;
-  width: 6.125em;
-  height: 3.000em;
+  width: 98px;
+  height: 48px;
 }
 .login-btn:hover {
   cursor: pointer;
@@ -181,7 +180,7 @@ button {
   color: rgba(255, 255, 255, 0.7);
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 18px;
 }
 /* END of Button design*/
@@ -189,7 +188,7 @@ button {
   grid-area: htext;
   justify-self: center;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 64px;
   line-height: 98px;
   letter-spacing: -0.03em;
   color: #ffffff;
@@ -199,7 +198,7 @@ button {
   justify-self: center;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 31px;
   letter-spacing: -0.015em;
   color: rgba(255, 255, 255, 0.7);
@@ -215,14 +214,14 @@ button {
   border: 1.3px solid #ffffff;
   box-sizing: border-box;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 18px;
   margin-left: 16px;
 }
 .learnmore > a {
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 18px;
   color: #ffffff;
 }
@@ -230,16 +229,17 @@ button {
   background: #ffffff;
   border-radius: 24px;
   border: 0;
-  width: 8.563em;
-  height: 3.000em;
+  width: 137px;
+  height: 48px;
   cursor: pointer;
 }
 .learnmore:hover > a {
   color: #ff525d;
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 18px;
+  filter: blur(0.1px);
 }
 /* END of Header */
 /* START of Sec1 */
@@ -264,14 +264,15 @@ button {
 .sec1 > h2 {
   grid-area: htext2;
   position: absolute;
-  width: 23ch;
+  width: 400px;
+  height: 60px;
   left: 521px;
   top: 745px;
   justify-self: center;
   align-self: center;
   font-style: normal;
   font-weight: 600;
-  font-size: 2.375rem;
+  font-size: 38px;
   line-height: 58px;
   color: #1f3f5b;
 }
@@ -286,7 +287,7 @@ button {
   top: -15px;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.875rem;
+  font-size: 30px;
   line-height: 46px;
   letter-spacing: -0.03em;
   color: #1f3f5b;
@@ -294,10 +295,10 @@ button {
 .sec1 .p1 > p {
   position: relative;
   top: -8px;
-  width: 70ch;
+  width: 539px;
   font-style: normal;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 25px;
   display: flex;
   align-items: center;
@@ -314,16 +315,16 @@ button {
   top: -7px;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.875rem;
+  font-size: 30px;
   line-height: 46px;
   letter-spacing: -0.03em;
   color: #1f3f5b;
 }
 .sec1 .p2 > p {
-  width: 70ch;
+  width: 544px;
   font-style: normal;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 25px;
   display: flex;
   align-items: center;
@@ -351,7 +352,7 @@ button {
 .sec2 .p3 > h2 {
   position: relative;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 40px;
   line-height: 61px;
   display: flex;
   align-items: center;
@@ -359,10 +360,10 @@ button {
   color: #ffffff;
 }
 .sec2 .p3 > p {
-  width: 70ch;
+  width: 530px;
   font-style: normal;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 25px;
   display: flex;
   align-items: center;
@@ -393,7 +394,7 @@ button {
 .content .power > h3 {
   font-style: normal;
   font-weight: 600;
-  font-size: 1.875rem;
+  font-size: 30px;
   line-height: 46px;
   display: flex;
   align-items: center;
@@ -405,13 +406,13 @@ button {
 .content .power > p {
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 25px;
   display: flex;
   align-items: center;
   letter-spacing: 0.026em;
   color: #4b5862;
-  width: 70ch;
+  width: 538px;
 }
 .free {
   margin-bottom: 99px;
@@ -452,7 +453,7 @@ button {
   margin-bottom: 36px;
   font-style: normal;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 18px;
   letter-spacing: -0.04em;
   color: #ffffff;
@@ -471,7 +472,7 @@ button {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 18px;
   display: flex;
   align-items: center;
