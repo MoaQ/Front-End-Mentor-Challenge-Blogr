@@ -47,7 +47,7 @@ body {
   grid-area: header;
   place-self: stretch;
   height: 600px;
-  background-image: url(/images/bg-pattern-intro-sliced.svg),
+  background-image: url(images/bg-pattern-intro-sliced.svg),
     var(--redgrad-color);
   mix-blend-mode: normal;
   background-repeat: no-repeat;
@@ -245,7 +245,7 @@ button {
 /* START of Sec1 */
 .sec1 {
   grid-area: sec1;
-  background-image: url(/images/illustration-editor-desktop.svg);
+  background-image: url(images/illustration-editor-desktop.svg);
   mix-blend-mode: normal;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -335,7 +335,7 @@ button {
 /* START of Sec2 */
 .sec2 {
   grid-area: sec2;
-  background-image: url(/images/bg-pattern-circles-sliced.svg),
+  background-image: url(images/bg-pattern-circles-sliced.svg),
     var(--bluegrad-color);
   height: 400px;
   mix-blend-mode: normal;
@@ -374,7 +374,7 @@ button {
 /* START of Sec3 */
 .sec3 {
   grid-area: sec3;
-  background-image: url(/images/illustration-laptop-desktop.svg);
+  background-image: url(images/illustration-laptop-desktop.svg);
   mix-blend-mode: normal;
   background-repeat: no-repeat;
   background-attachment: scroll;
