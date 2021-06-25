@@ -47,7 +47,21 @@ body {
   grid-area: header;
   place-self: stretch;
   height: 600px;
-  background-image: url(images/bg-pattern-intro-sliced.svg),
+  background-image: <svg width="1440" height="600" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.95" clip-path="url(#clip0)">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1913.86 628.874L1618.51 1359.87L889.035 1065.15L1146.92 426.864C1167.61 375.658 1225.89 350.918 1277.1 371.607L1913.86 628.874ZM699.27 136.887C900.71 218.274 998.032 447.55 916.645 648.989L916.029 650.514C834.642 851.954 605.366 949.276 403.927 867.889C202.487 786.502 105.166 557.224 186.552 355.786L187.168 354.261C268.555 152.821 497.831 55.4999 699.27 136.887ZM1409.97 -575.148L1152.08 63.1346C1131.39 114.343 1073.11 139.081 1021.9 118.392L385.145 -138.875L680.489 -869.876L1409.97 -575.148ZM2261.34 -231.172L1965.99 499.829L1329.23 242.562C1278.03 221.873 1253.29 163.59 1273.98 112.383L1531.86 -525.9L2261.34 -231.172Z" fill="url(#paint0_linear)"/>
+  </g>
+  <defs>
+  <linearGradient id="paint0_linear" x1="690.59" y1="-865.794" x2="1622.66" y2="1349.8" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#FF8F71"/>
+  <stop offset="1" stop-color="#FF3E55"/>
+  </linearGradient>
+  <clipPath id="clip0">
+  <rect width="1440" height="600" fill="white"/>
+  </clipPath>
+  </defs>
+  </svg>
+  ,
     var(--redgrad-color);
   mix-blend-mode: normal;
   background-repeat: no-repeat;
